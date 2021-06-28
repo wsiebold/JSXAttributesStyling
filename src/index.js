@@ -8,15 +8,26 @@ const img2 =
 const img3 =
   "https://imengine.prod.srp.navigacloud.com/?uuid=5AFACCFC-239C-4D84-8AE2-B57069A71A8F&type=primary&q=72&width=1024";
 
+const customStyle = {
+  color: "blue",
+  fontSize: "2em",
+  marginBottom: "2em"
+};
+
 ReactDOM.render(
   <div>
-    <h1 className="heading" contentEditable="true" spellCheck="false">
+    <h1
+      style={customStyle}
+      className="heading"
+      contentEditable="true"
+      spellCheck="false"
+    >
       Jethro Tull
     </h1>
     <div className="img-set" contentEditable="false">
-      <img src={img1} />
-      <img src={img2} />
-      <img src={img3} />
+      <img alt="imgs in jsx" src={img1} />
+      <img alt="imgs in jsx" src={img2} />
+      <img alt="imgs in jsx" src={img3} />
     </div>
   </div>,
   document.getElementById("root")
