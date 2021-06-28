@@ -2,17 +2,3 @@
   color: red;
   text-align: center;
 }
-ul {
-  list-style-type: circle;
-}
-ul li {
-  line-height: 3em;
-}
-.img-set img {
-  height: 15em;
-  width: auto;
-  border-radius: 1em;
-  display: block;
-  margin: 0 auto;
-  margin-top: 1em;
-}
